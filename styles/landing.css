@@ -228,3 +228,32 @@ padding: 5px 20px;
 margin-bottom: 24px;
 border: none;
 }
+footer{
+    text-align: center;
+    background:white;
+
+}
+footer p{
+    padding: 0 520px;
+}
+
+footer ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+footer ul li{
+  
+    list-style: none;
+}
+footer ul li a{
+      text-decoration: none;
+      color: #8987A1;
+}
+
+footer h1{
+    font-family: "Raleway";
+    font-size: 80px;
+    font-weight: 900;
+    
+}
