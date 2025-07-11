@@ -5,6 +5,9 @@
     font-style: normal;
 }
 
+body{
+    background-color: aliceblue;
+}
 
 header nav h1{
     font-family: "Inter";
@@ -103,9 +106,9 @@ header{
     
 }
 
-section{
+/* section{
     width: 1140px;
-}
+} */
 .productive-user{
     background-color: #d3e3fd ;
     width: 1140px;
@@ -139,4 +142,51 @@ section{
     color: #757575;
     margin: 0px;
     padding: 0px;
+}
+
+/*Review part styles*/
+
+
+.review-part-headline{
+    
+    font-family: "Raleway";
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.review-card-container{
+    display: flex;
+    gap: 150px;
+    /* width: 1140px; */
+    padding: 0px 140px;
+    margin: 100px;
+    
+}
+.review-card{
+    
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    
+    
+}
+.reviewer-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.reviewer-name{
+    font-weight: 600;
+    color: #757575;
+}
+.review-date{
+    color:#757575;
+}
+.review-date{
+    font-weight: 200;
+}
+.avatar-radius{
+    /* font-family: "Raleway"; */
+    border-radius: 50%;
 }
