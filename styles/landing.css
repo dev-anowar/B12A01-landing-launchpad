@@ -106,14 +106,14 @@ header{
     
 }
 
-/* section{
+ section{
     width: 1140px;
-} */
+} 
 .productive-user{
     background-color: #d3e3fd ;
     width: 1140px;
     height: 306px;
-    margin: 0px auto;
+    margin: 0px 150px;
     border-radius: 15px;
 }
 .productive-user-title{
@@ -146,7 +146,9 @@ header{
 
 /*Review part styles*/
 
-
+.user-review{
+    margin-left: 150px;
+}
 .review-part-headline{
     
     font-family: "Raleway";
@@ -157,16 +159,14 @@ header{
 
 .review-card-container{
     display: flex;
-    gap: 150px;
-    /* width: 1140px; */
-    padding: 0px 140px;
-    margin: 100px;
-    
+    gap: 20px;
+    /* justify-content: center;     */
 }
 .review-card{
     
     background-color: #FFFFFF;
     border-radius: 15px;
+    padding: 20px;
     
     
 }
@@ -189,4 +189,15 @@ header{
 .avatar-radius{
     /* font-family: "Raleway"; */
     border-radius: 50%;
+}
+
+.focus-container{
+    text-align: center;
+    margin-bottom: 200px;
+}
+.focus-container img{
+    display: flex;
+    align-items: center;
+    margin:10px 350px;
+    border-radius: 48px;
 }
